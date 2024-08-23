@@ -13,8 +13,3 @@ setInterval(() => {
     minuto.innerHTML = `${formatTime(minutos)}`;
     segundo.innerHTML = `${formatTime(segundos)}`;
 
-}, 1000);
-
-function formatTime(time){
-    return time < 10 ? "0" + time : time;
-}
